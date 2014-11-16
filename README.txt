@@ -2,6 +2,12 @@ Mastermind - READ ME
 
 Raven Pillmann
 
+TO RUN: Run mastermind.py in the command line
+
+NOTE: This is my first attempt at creating a game in python. The comments and this README reflect
+an attempt to make grading as easy as possible for my prefect. 
+
+
 Mastermind is a popular game in which one player serves as a guesser and attempts to guess
 a random code. The player has eight colors to choose from. He receives a response for every
 guess that consists of red and white pegs. Red pegs indicate that the player has the right 
@@ -28,12 +34,7 @@ the code up and make it its own class.
 
 Graphics - I do not own graphics. It is used to create the shapes on the screen.
 
-The program is complete. I am most proud of its algorithm to check combinations. The program is playable
-and, after several hours of testing, completely functional. The buttons work only when they should
-logically be able to (you can only guess when there are four pegs in your guess, etc). The reply pegs (red, white, 
-dark grey) function accurately. The only "bug" that exists (whether it is actually a bug is debatable)
-is that users can enter a fifth peg. However, the program ignores that pegs and just guesses with the first four
-if a user enters a fifth. It is the equivalent of pressing the guess button.
+
 
 
 

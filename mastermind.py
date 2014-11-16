@@ -18,7 +18,7 @@ def main():
 	win = GraphWin("MasterMind", 300, 760)
 	win.setCoords(0, 0, 300, 760) 
 	
-	#calls on the Board class to draw an initial game board layout.
+	# Calls on the Board class to draw an initial game board layout.
 	board = Board()
 	board.draw(win)
 	
